@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+Link{
+    text-decoration: none;
+}
+.box{
+    margin-top: 10px;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 140px;
+    position: relative;
+}
+.addbtn{
+    position: absolute;
+    bottom:  15%;
+    right: 10%;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    background-color: #fcad03;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btnview{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    background-color: #fcad03;
+}
